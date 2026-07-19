@@ -1,6 +1,6 @@
 # How to connect an API using Python 
+# status code 200 means the request was successful
 import requests
-
 base_url = "https://pokeapi.co/api/v2/"
 
 def get_pokemon_info(name):
